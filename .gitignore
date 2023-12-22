@@ -1,0 +1,4 @@
+squelch_cc
+.vscode
+*.o
+*~
