@@ -22,5 +22,6 @@ Options
 -------
 
 * `--dump` Dump signal level on `stderr`  
-* `--level <level>` Set gate threshold  
+* `--level <level>` Set squelch threshold  (Default: 0.01)
 * `--blocking` Stop filling `stdout` with `'\0'` if the gate is closed
+* `--count <count>` Samples window size for noise level computation (Default: 1024 samples)
